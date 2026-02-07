@@ -74,7 +74,7 @@ const About = () => {
                     <source src="/growth.mp4" type="video/mp4 " />
                   </video> */}
                   <img
-                    src="/website/q-1.jpg"
+                    src="/q-1.jpg"
                     alt="vision"
                     className="w-full h-[250px] object-cover rounded-xl"
                   />
@@ -106,7 +106,7 @@ const About = () => {
                     <source src="/design.mp4" type="video/mp4 " />
                   </video> */}
                   <img
-                    src="/website/q-2.jpg"
+                    src="/q-2.jpg"
                     alt="vision"
                     className="w-full h-[250px] object-cover rounded-xl"
                   />
@@ -137,7 +137,7 @@ const About = () => {
                     <source src="/quardlink.mp4" type="video/mp4 " />
                   </video> */}
                   <img
-                    src="/website/q-3.jpg"
+                    src="/q-3.jpg"
                     alt="vision"
                     className="w-full h-[250px] object-cover rounded-xl"
                   />

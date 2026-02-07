@@ -41,10 +41,7 @@ const Hero = () => {
             playsInline={true}
             key="video"
           >
-            <source
-              src={`${import.meta.env.BASE_URL}mac.mp4`}
-              type="video/mp4 "
-            />
+            <source src="/mac.mp4" type="video/mp4 " />
           </video>
         </div>
         <div className="mt-5 ">

@@ -10,27 +10,27 @@ export const navLists = [
 export const clientsList = [
   {
     name: "mcind",
-    logo: "/website/mcind.png",
+    logo: "/mcind.png",
   },
   {
     name: "keemz",
-    logo: "/website/keemz.svg",
+    logo: "/keemz.svg",
   },
   {
     name: "nexvion",
-    logo: "/website/nexvion.png",
+    logo: "/nexvion.png",
   },
   {
     name: "grifen",
-    logo: "/website/grifen.svg",
+    logo: "/grifen.svg",
   },
   {
     name: "pmi",
-    logo: "/website/pmi_logo.avif",
+    logo: "/pmi_logo.avif",
   },
   {
     name: "uneffected",
-    logo: "/website/uneffected.png",
+    logo: "/uneffected.png",
   },
 ];
 
@@ -38,37 +38,37 @@ export const projectList = [
   {
     name: "McInd",
     desc: "Business site for MCIND Group",
-    image: "/website/mcind_mockup.jpg",
+    image: "/mcind_mockup.jpg",
     link: "https://www.mcind.net/",
   },
   {
     name: "Nexvion",
     desc: "Facility Management Company Website Design",
-    image: "/website/nexvion_mockup.jpg",
+    image: "/nexvion_mockup.jpg",
     link: "https://www.nexvionglobal.com/",
   },
   {
     name: "Keemz Med",
     desc: "Distributor platform for medical devices",
-    image: "/website/MOCKUP 3.jpg",
+    image: "/MOCKUP 3.jpg",
     link: "https://www.keemzmed.com/",
   },
   {
     name: "McInd Vision Abroad",
     desc: "Educational Consultancy Web Design Project",
-    image: "/website/mcind_vision_mockup.jpg",
+    image: "/mcind_vision_mockup.jpg",
     link: "https://visionabroad.mcind.net/",
   },
   {
     name: "McInd Construction and Trading",
     desc: "Construction and Trade Company Website",
-    image: "/website/mcind_trading_mockup.jpg",
+    image: "/mcind_trading_mockup.jpg",
     link: "https://tradingcontracting.mcind.net/",
   },
   {
     name: "Grifen Cloth Studio",
     desc: "Clothing Studio Ecommerce Site Design",
-    image: "/website/grifen_mockup.jpg",
+    image: "/grifen_mockup.jpg",
     link: "https://www.grifenclothstudio.in/",
   },
 ];
