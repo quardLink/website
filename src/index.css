@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* :root {
+  --font-main: "Sora", "Roboto", sans-serif;
+} */
+
+body {
+  color: white;
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 100%;
+  background: #000;
+  border-color: #3b3b3b;
+  user-select: none;
+  /* font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+@theme inline {
+  --shadow-input: 0px 2px 3px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 0px 0px rgba(25, 28, 33, 0.02),
+    0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+  --default-font-family: "Sora", "Roboto";
+}
+@utility nav-height {
+  @apply h-[calc(100vh-60px)];
+}
+@utility common-padding {
+  @apply sm:py-32 py-20 sm:px-10 px-5;
+}
+@utility custom-padding {
+  @apply md:py-0 py-5 px-10 md:px-60;
+}
+@utility bg-custom-color {
+  @apply bg-gradient-to-b from-black via-black to-purple-900;
+}
+@utility bg-custom-color-1 {
+  @apply bg-gradient-to-b from-purple-900 via-black to-black;
+}
