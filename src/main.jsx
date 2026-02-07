@@ -9,9 +9,9 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/website">
         <App />
       </BrowserRouter>
     </HelmetProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
